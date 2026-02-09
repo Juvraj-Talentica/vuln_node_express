@@ -17,3 +17,5 @@ jobs:
           cache: npm
       - name: Install dependecies
         run: npm install
+      - name: Run unit tests
+        run: npm test
